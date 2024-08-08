@@ -19,6 +19,32 @@ body{
     text-align: center;
 }
 
+#Buttons{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: center;
+}
+#Buttons button{
+    width: min(7rem, 25vw);
+    background-color: #d9d6cb;
+    font-size: min(5vw, 1.5rem);
+    border: 0;
+    margin: 0 min(1rem, 4vw);
+    box-shadow: 0 0 2px #0000006e;
+}
+#Buttons button:active{
+    background-color: #b6b2a5;
+}
+
+#TextToWrite{
+    font-size: min(15px, 4vw);
+}
+
+#WritingSpace{
+    width: 100%;
+    height: min(150px, 40vw);
+    margin: auto 0;
+}
 
 #TextWritten{
     color: red;
